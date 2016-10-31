@@ -5,7 +5,7 @@ package observerPattern;
  *
  * @author Ryan Darnell
  */
-public class DifferentObserver implements IObserver, IDisplay{
+public class DifferentObserver extends SubObs{
     
     private int value1 = 0;
     private double value2 = 0;

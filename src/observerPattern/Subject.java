@@ -7,7 +7,7 @@ import java.util.ArrayList;
  *
  * @author Ryan Darnell
  */
-public class Subject implements ISubject{
+public class Subject extends SubObs{
 
     private ArrayList<IObserver> observers;
     private int value1;
